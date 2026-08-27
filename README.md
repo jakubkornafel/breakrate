@@ -1,9 +1,10 @@
 # breakrate
 
-**Measure what agent-written code breaks.**
+**Does your process hold, whoever writes the code?**
 
 Every benchmark for coding agents measures whether a task was solved. None measures whether
-the result stayed working. This does.
+the result stayed working. This computes that from git history, and splits it by who wrote the
+change — so the number answers a question about your process, not about your agents.
 
 ```bash
 python3 breakrate.py scan /path/to/repo
@@ -23,10 +24,27 @@ python3 breakrate.py scan /path/to/repo
 No instrumentation. No CI integration. No configuration. It reads git history, so it works
 retroactively on a repository you already have, including one you did not write.
 
+## What the cohorts are for
+
+Not to prove that agents are worse. Early runs suggest the opposite of a simple story: in
+public repositories with pull-request review and CI, agent-involved and human changes break
+things at about the same rate. Where the two cohorts diverge sharply, the difference has so far
+tracked the process around the work rather than the author of it.
+
+So read the comparison this way:
+
+- **The two rates are close.** Whatever review you have is doing its job on both.
+- **The agent rate is several times higher.** The gap is not evidence that agents are careless.
+  It is evidence that the work they produce is entering your repository through a thinner
+  process than the work people produce — no independent check, no gate that can refuse, nothing
+  that runs the thing before it lands.
+
+Bad process turns good input into breakage, and that is as true of a person as of a model.
+This measures the process, using authorship only as the contrast that makes it visible.
+
 ## What it measures
 
-**Break Rate** — the share of merged changes that broke something that was working, split by
-who wrote them: agent-authored, agent-assisted, or human.
+**Break Rate** — the share of merged changes that broke something that was working.
 
 Reported alongside **throughput**, always. The cheapest way to drive break rate to zero is to
 stop shipping, and a number that rewards paralysis will get it.
@@ -54,6 +72,7 @@ reported separately. That single distinction is what makes the number worth argu
 python3 breakrate.py scan <repo> [--since 2026-01-01] [--until 2026-08-27]
                                  [--window-days 7] [--format md|json]
 python3 breakrate.py cohorts <repo>          # authorship breakdown only
+./harvest.sh owner/repo [owner/repo ...]     # clone public repositories and measure them
 ```
 
 Python 3.9+, standard library only, no dependencies.
@@ -67,6 +86,9 @@ mode has run against real CI data.
 
 Numbers from different repositories compare only when window, mode and metric version match.
 Every report records all three.
+
+Measurements of private repositories are gitignored and stay out of this repository; see
+[data/README.md](data/README.md) for why, and for the method behind the published set.
 
 ## Tests
 
