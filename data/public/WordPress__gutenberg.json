@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "WordPress/gutenberg",
+    "range": "2016-07-12 \u2026 2026-08-27",
+    "commits": 40325,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "7fbcba23a53fafba44059f7498d867f262a80fbf",
+    "source": "https://github.com/WordPress/gutenberg"
+  },
+  "cohorts": {
+    "human": {
+      "changes": 39739,
+      "broke": 1533,
+      "break_rate": 0.0386,
+      "revert_rate": 0.0055,
+      "regression_rate": 0.0331,
+      "churn_rate": 0.1983,
+      "throughput_per_week": 75.22,
+      "median_hours_to_fix": 47.0
+    },
+    "agent_assisted": {
+      "changes": 295,
+      "broke": 11,
+      "break_rate": 0.0373,
+      "revert_rate": 0.0034,
+      "regression_rate": 0.0339,
+      "churn_rate": 0.2475,
+      "throughput_per_week": 0.56,
+      "median_hours_to_fix": 40.3
+    },
+    "agent_authored": {
+      "changes": 291,
+      "broke": 19,
+      "break_rate": 0.0653,
+      "revert_rate": 0.0137,
+      "regression_rate": 0.0515,
+      "churn_rate": 0.1031,
+      "throughput_per_week": 0.55,
+      "median_hours_to_fix": 60.1
+    },
+    "agent_involved": {
+      "changes": 586,
+      "broke": 30,
+      "break_rate": 0.0512,
+      "churn_rate": 0.1758,
+      "throughput_per_week": 1.11,
+      "median_hours_to_fix": 54.3
+    },
+    "human_total": {
+      "changes": 39739,
+      "broke": 1533,
+      "break_rate": 0.0386,
+      "churn_rate": 0.1983,
+      "throughput_per_week": 75.22,
+      "median_hours_to_fix": 47.0
+    }
+  },
+  "rework_concentration": 0.474
+}

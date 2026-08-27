@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "conciv-dev/conciv",
+    "range": "2026-06-13 \u2026 2026-08-23",
+    "commits": 971,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "d56101eab81f1e015e6ea8419fb70be278244b5e",
+    "source": "https://github.com/conciv-dev/conciv"
+  },
+  "cohorts": {
+    "agent_assisted": {
+      "changes": 839,
+      "broke": 16,
+      "break_rate": 0.0191,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0191,
+      "churn_rate": 0.5316,
+      "throughput_per_week": 82.81,
+      "median_hours_to_fix": 10.9
+    },
+    "human": {
+      "changes": 103,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.4854,
+      "throughput_per_week": 10.17,
+      "median_hours_to_fix": null
+    },
+    "agent_authored": {
+      "changes": 29,
+      "broke": 2,
+      "break_rate": 0.069,
+      "revert_rate": 0.069,
+      "regression_rate": 0.0,
+      "churn_rate": 0.5172,
+      "throughput_per_week": 2.86,
+      "median_hours_to_fix": 5.6
+    },
+    "agent_involved": {
+      "changes": 868,
+      "broke": 18,
+      "break_rate": 0.0207,
+      "churn_rate": 0.5311,
+      "throughput_per_week": 85.67,
+      "median_hours_to_fix": 10.0
+    },
+    "human_total": {
+      "changes": 103,
+      "broke": 0,
+      "break_rate": 0.0,
+      "churn_rate": 0.4854,
+      "throughput_per_week": 10.17,
+      "median_hours_to_fix": null
+    }
+  },
+  "rework_concentration": 0.203
+}

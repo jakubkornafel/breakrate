@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "repo": "matsumo0922/fukurou",
+    "range": "2026-07-01 \u2026 2026-08-01",
+    "commits": 288,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "80a30fe613d607198b2223d7ebc0a8b92277e1e6",
+    "source": "https://github.com/matsumo0922/fukurou"
+  },
+  "cohorts": {
+    "agent_assisted": {
+      "changes": 38,
+      "broke": 1,
+      "break_rate": 0.0263,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0263,
+      "churn_rate": 0.5526,
+      "throughput_per_week": 8.59,
+      "median_hours_to_fix": 4.5
+    },
+    "human": {
+      "changes": 250,
+      "broke": 9,
+      "break_rate": 0.036,
+      "revert_rate": 0.008,
+      "regression_rate": 0.028,
+      "churn_rate": 0.876,
+      "throughput_per_week": 56.5,
+      "median_hours_to_fix": 6.2
+    },
+    "agent_involved": {
+      "changes": 38,
+      "broke": 1,
+      "break_rate": 0.0263,
+      "churn_rate": 0.5526,
+      "throughput_per_week": 8.59,
+      "median_hours_to_fix": 4.5
+    },
+    "human_total": {
+      "changes": 250,
+      "broke": 9,
+      "break_rate": 0.036,
+      "churn_rate": 0.876,
+      "throughput_per_week": 56.5,
+      "median_hours_to_fix": 6.2
+    }
+  },
+  "rework_concentration": 0.227
+}

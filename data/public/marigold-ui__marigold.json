@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "marigold-ui/marigold",
+    "range": "2020-01-15 \u2026 2026-08-27",
+    "commits": 4893,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "b229fab90d45f1ea17b8b77b0b228f5baaa2ffa2",
+    "source": "https://github.com/marigold-ui/marigold"
+  },
+  "cohorts": {
+    "agent_authored": {
+      "changes": 2119,
+      "broke": 158,
+      "break_rate": 0.0746,
+      "revert_rate": 0.0076,
+      "regression_rate": 0.067,
+      "churn_rate": 0.2695,
+      "throughput_per_week": 6.14,
+      "median_hours_to_fix": 27.6
+    },
+    "human": {
+      "changes": 2627,
+      "broke": 87,
+      "break_rate": 0.0331,
+      "revert_rate": 0.0103,
+      "regression_rate": 0.0228,
+      "churn_rate": 0.174,
+      "throughput_per_week": 7.61,
+      "median_hours_to_fix": 21.7
+    },
+    "agent_assisted": {
+      "changes": 147,
+      "broke": 2,
+      "break_rate": 0.0136,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0136,
+      "churn_rate": 0.1429,
+      "throughput_per_week": 0.43,
+      "median_hours_to_fix": 10.1
+    },
+    "agent_involved": {
+      "changes": 2266,
+      "broke": 160,
+      "break_rate": 0.0706,
+      "churn_rate": 0.2613,
+      "throughput_per_week": 6.57,
+      "median_hours_to_fix": 27.2
+    },
+    "human_total": {
+      "changes": 2627,
+      "broke": 87,
+      "break_rate": 0.0331,
+      "churn_rate": 0.174,
+      "throughput_per_week": 7.61,
+      "median_hours_to_fix": 21.7
+    }
+  },
+  "rework_concentration": 0.427
+}

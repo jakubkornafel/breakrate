@@ -24,12 +24,25 @@ python3 breakrate.py scan /path/to/repo
 No instrumentation. No CI integration. No configuration. It reads git history, so it works
 retroactively on a repository you already have, including one you did not write.
 
+## The first measurement
+
+Thirteen public repositories, measured on 2026-08-27. Across the ten that carry at least a
+hundred changes in both cohorts:
+
+| | agent-involved | human |
+|---|---|---|
+| Median break rate | **2.0%** | **2.1%** |
+| Range across repositories | 0.3% – 7.1% | 0.0% – 3.9% |
+
+The median difference between cohorts **inside** a repository is 0.5 points. The spread
+**between** repositories is 6.8 points — thirteen times larger. Full table, caveats and method
+in [data/RESULTS.md](data/RESULTS.md).
+
 ## What the cohorts are for
 
-Not to prove that agents are worse. Early runs suggest the opposite of a simple story: in
-public repositories with pull-request review and CI, agent-involved and human changes break
-things at about the same rate. Where the two cohorts diverge sharply, the difference has so far
-tracked the process around the work rather than the author of it.
+Not to prove that agents are worse. They break things at the same rate as people, in the same
+codebase, and the variation that matters is between codebases. Where the two cohorts do diverge
+sharply, what differs is the process the work passes through, not who produced it.
 
 So read the comparison this way:
 

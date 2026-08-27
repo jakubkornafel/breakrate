@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "vercel/flags",
+    "range": "2024-12-12 \u2026 2026-08-26",
+    "commits": 352,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "f13fd2781675a7a3cf05b4ad51b70475c85276a6",
+    "source": "https://github.com/vercel/flags"
+  },
+  "cohorts": {
+    "agent_authored": {
+      "changes": 76,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.0263,
+      "throughput_per_week": 0.86,
+      "median_hours_to_fix": null
+    },
+    "agent_assisted": {
+      "changes": 25,
+      "broke": 4,
+      "break_rate": 0.16,
+      "revert_rate": 0.04,
+      "regression_rate": 0.12,
+      "churn_rate": 0.04,
+      "throughput_per_week": 0.28,
+      "median_hours_to_fix": 15.3
+    },
+    "human": {
+      "changes": 251,
+      "broke": 9,
+      "break_rate": 0.0359,
+      "revert_rate": 0.0199,
+      "regression_rate": 0.0159,
+      "churn_rate": 0.0797,
+      "throughput_per_week": 2.82,
+      "median_hours_to_fix": 14.7
+    },
+    "agent_involved": {
+      "changes": 101,
+      "broke": 4,
+      "break_rate": 0.0396,
+      "churn_rate": 0.0297,
+      "throughput_per_week": 1.14,
+      "median_hours_to_fix": 15.3
+    },
+    "human_total": {
+      "changes": 251,
+      "broke": 9,
+      "break_rate": 0.0359,
+      "churn_rate": 0.0797,
+      "throughput_per_week": 2.82,
+      "median_hours_to_fix": 14.7
+    }
+  },
+  "rework_concentration": 0.227
+}

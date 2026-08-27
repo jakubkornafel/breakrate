@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "base/base",
+    "range": "2024-01-20 \u2026 2026-08-27",
+    "commits": 5090,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "4c478f79c89cef3163946a014ed80d07f03bab60",
+    "source": "https://github.com/base/base"
+  },
+  "cohorts": {
+    "agent_assisted": {
+      "changes": 732,
+      "broke": 11,
+      "break_rate": 0.015,
+      "revert_rate": 0.0027,
+      "regression_rate": 0.0123,
+      "churn_rate": 0.5437,
+      "throughput_per_week": 5.39,
+      "median_hours_to_fix": 20.6
+    },
+    "human": {
+      "changes": 4309,
+      "broke": 75,
+      "break_rate": 0.0174,
+      "revert_rate": 0.0012,
+      "regression_rate": 0.0162,
+      "churn_rate": 0.4416,
+      "throughput_per_week": 31.75,
+      "median_hours_to_fix": 23.9
+    },
+    "agent_authored": {
+      "changes": 49,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.0408,
+      "throughput_per_week": 0.36,
+      "median_hours_to_fix": null
+    },
+    "agent_involved": {
+      "changes": 781,
+      "broke": 11,
+      "break_rate": 0.0141,
+      "churn_rate": 0.5122,
+      "throughput_per_week": 5.75,
+      "median_hours_to_fix": 20.6
+    },
+    "human_total": {
+      "changes": 4309,
+      "broke": 75,
+      "break_rate": 0.0174,
+      "churn_rate": 0.4416,
+      "throughput_per_week": 31.75,
+      "median_hours_to_fix": 23.9
+    }
+  },
+  "rework_concentration": 0.264
+}

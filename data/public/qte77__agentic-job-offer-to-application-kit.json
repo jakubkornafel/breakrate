@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "qte77/agentic-job-offer-to-application-kit",
+    "range": "2026-06-11 \u2026 2026-08-25",
+    "commits": 294,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "fa6edba4639a3b62a9425d976b58a065ea642298",
+    "source": "https://github.com/qte77/agentic-job-offer-to-application-kit"
+  },
+  "cohorts": {
+    "agent_assisted": {
+      "changes": 267,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.4345,
+      "throughput_per_week": 25.06,
+      "median_hours_to_fix": null
+    },
+    "agent_authored": {
+      "changes": 13,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.2308,
+      "throughput_per_week": 1.22,
+      "median_hours_to_fix": null
+    },
+    "human": {
+      "changes": 14,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.7143,
+      "throughput_per_week": 1.31,
+      "median_hours_to_fix": null
+    },
+    "agent_involved": {
+      "changes": 280,
+      "broke": 0,
+      "break_rate": 0.0,
+      "churn_rate": 0.425,
+      "throughput_per_week": 26.28,
+      "median_hours_to_fix": null
+    },
+    "human_total": {
+      "changes": 14,
+      "broke": 0,
+      "break_rate": 0.0,
+      "churn_rate": 0.7143,
+      "throughput_per_week": 1.31,
+      "median_hours_to_fix": null
+    }
+  },
+  "rework_concentration": 0.0
+}

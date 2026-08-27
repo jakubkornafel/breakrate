@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "monarch-initiative/dismech",
+    "range": "2025-12-04 \u2026 2026-08-27",
+    "commits": 7903,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "540c8bc2c8c5ad5e040801648bd5034c89063915",
+    "source": "https://github.com/monarch-initiative/dismech"
+  },
+  "cohorts": {
+    "human": {
+      "changes": 3700,
+      "broke": 31,
+      "break_rate": 0.0084,
+      "revert_rate": 0.0019,
+      "regression_rate": 0.0065,
+      "churn_rate": 0.4354,
+      "throughput_per_week": 97.31,
+      "median_hours_to_fix": 2.2
+    },
+    "agent_assisted": {
+      "changes": 2810,
+      "broke": 32,
+      "break_rate": 0.0114,
+      "revert_rate": 0.0036,
+      "regression_rate": 0.0078,
+      "churn_rate": 0.5242,
+      "throughput_per_week": 73.9,
+      "median_hours_to_fix": 12.6
+    },
+    "agent_authored": {
+      "changes": 1393,
+      "broke": 25,
+      "break_rate": 0.0179,
+      "revert_rate": 0.0079,
+      "regression_rate": 0.0101,
+      "churn_rate": 0.3238,
+      "throughput_per_week": 36.64,
+      "median_hours_to_fix": 1.7
+    },
+    "agent_involved": {
+      "changes": 4203,
+      "broke": 57,
+      "break_rate": 0.0136,
+      "churn_rate": 0.4578,
+      "throughput_per_week": 110.54,
+      "median_hours_to_fix": 8.6
+    },
+    "human_total": {
+      "changes": 3700,
+      "broke": 31,
+      "break_rate": 0.0084,
+      "churn_rate": 0.4354,
+      "throughput_per_week": 97.31,
+      "median_hours_to_fix": 2.2
+    }
+  },
+  "rework_concentration": 0.185
+}

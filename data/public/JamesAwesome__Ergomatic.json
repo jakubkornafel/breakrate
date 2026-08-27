@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "JamesAwesome/Ergomatic",
+    "range": "2026-07-27 \u2026 2026-08-27",
+    "commits": 762,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "1c8e03d0b86fbf2786048ec6eb7b7c60210896af",
+    "source": "https://github.com/JamesAwesome/Ergomatic"
+  },
+  "cohorts": {
+    "agent_assisted": {
+      "changes": 639,
+      "broke": 13,
+      "break_rate": 0.0203,
+      "revert_rate": 0.0016,
+      "regression_rate": 0.0188,
+      "churn_rate": 0.7512,
+      "throughput_per_week": 143.49,
+      "median_hours_to_fix": 3.5
+    },
+    "agent_authored": {
+      "changes": 8,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.125,
+      "throughput_per_week": 1.8,
+      "median_hours_to_fix": null
+    },
+    "human": {
+      "changes": 115,
+      "broke": 2,
+      "break_rate": 0.0174,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0174,
+      "churn_rate": 0.8522,
+      "throughput_per_week": 25.82,
+      "median_hours_to_fix": 3.0
+    },
+    "agent_involved": {
+      "changes": 647,
+      "broke": 13,
+      "break_rate": 0.0201,
+      "churn_rate": 0.7434,
+      "throughput_per_week": 145.29,
+      "median_hours_to_fix": 3.5
+    },
+    "human_total": {
+      "changes": 115,
+      "broke": 2,
+      "break_rate": 0.0174,
+      "churn_rate": 0.8522,
+      "throughput_per_week": 25.82,
+      "median_hours_to_fix": 3.0
+    }
+  },
+  "rework_concentration": 0.225
+}

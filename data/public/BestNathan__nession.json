@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "BestNathan/nession",
+    "range": "2026-06-27 \u2026 2026-08-27",
+    "commits": 1304,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "912e7e14a1becaff732b04879e8de04039995f78",
+    "source": "https://github.com/BestNathan/nession"
+  },
+  "cohorts": {
+    "agent_authored": {
+      "changes": 543,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.2284,
+      "throughput_per_week": 61.89,
+      "median_hours_to_fix": null
+    },
+    "agent_assisted": {
+      "changes": 669,
+      "broke": 9,
+      "break_rate": 0.0135,
+      "revert_rate": 0.0015,
+      "regression_rate": 0.012,
+      "churn_rate": 0.6218,
+      "throughput_per_week": 76.25,
+      "median_hours_to_fix": 4.1
+    },
+    "human": {
+      "changes": 92,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 0.663,
+      "throughput_per_week": 10.49,
+      "median_hours_to_fix": null
+    },
+    "agent_involved": {
+      "changes": 1212,
+      "broke": 9,
+      "break_rate": 0.0074,
+      "churn_rate": 0.4455,
+      "throughput_per_week": 138.14,
+      "median_hours_to_fix": 4.1
+    },
+    "human_total": {
+      "changes": 92,
+      "broke": 0,
+      "break_rate": 0.0,
+      "churn_rate": 0.663,
+      "throughput_per_week": 10.49,
+      "median_hours_to_fix": null
+    }
+  },
+  "rework_concentration": 0.241
+}

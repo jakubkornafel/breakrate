@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "oeduardobrandao/sm-crm",
+    "range": "2026-03-04 \u2026 2026-08-27",
+    "commits": 1296,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "d17edc76716213ffc535ce26c75d74558160c284",
+    "source": "https://github.com/oeduardobrandao/sm-crm"
+  },
+  "cohorts": {
+    "agent_assisted": {
+      "changes": 713,
+      "broke": 2,
+      "break_rate": 0.0028,
+      "revert_rate": 0.0014,
+      "regression_rate": 0.0014,
+      "churn_rate": 0.425,
+      "throughput_per_week": 28.34,
+      "median_hours_to_fix": 1.8
+    },
+    "human": {
+      "changes": 581,
+      "broke": 17,
+      "break_rate": 0.0293,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0293,
+      "churn_rate": 0.463,
+      "throughput_per_week": 23.1,
+      "median_hours_to_fix": 1.5
+    },
+    "agent_authored": {
+      "changes": 2,
+      "broke": 0,
+      "break_rate": 0.0,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0,
+      "churn_rate": 1.0,
+      "throughput_per_week": 0.08,
+      "median_hours_to_fix": null
+    },
+    "agent_involved": {
+      "changes": 715,
+      "broke": 2,
+      "break_rate": 0.0028,
+      "churn_rate": 0.4266,
+      "throughput_per_week": 28.42,
+      "median_hours_to_fix": 1.8
+    },
+    "human_total": {
+      "changes": 581,
+      "broke": 17,
+      "break_rate": 0.0293,
+      "churn_rate": 0.463,
+      "throughput_per_week": 23.1,
+      "median_hours_to_fix": 1.5
+    }
+  },
+  "rework_concentration": 0.154
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "repo": "SciML/ModelingToolkit.jl",
+    "range": "2018-02-27 \u2026 2026-08-27",
+    "commits": 8863,
+    "window_days": 7,
+    "mode": "proxy",
+    "metric_version": "0.1",
+    "tool_version": "0.1.0",
+    "head": "c69fe3f74f101f48541962ca3c9c5ea26d94fc12",
+    "source": "https://github.com/SciML/ModelingToolkit.jl"
+  },
+  "cohorts": {
+    "agent_assisted": {
+      "changes": 301,
+      "broke": 2,
+      "break_rate": 0.0066,
+      "revert_rate": 0.0,
+      "regression_rate": 0.0066,
+      "churn_rate": 0.3588,
+      "throughput_per_week": 0.68,
+      "median_hours_to_fix": 97.8
+    },
+    "human": {
+      "changes": 8473,
+      "broke": 201,
+      "break_rate": 0.0237,
+      "revert_rate": 0.0024,
+      "regression_rate": 0.0214,
+      "churn_rate": 0.3916,
+      "throughput_per_week": 19.11,
+      "median_hours_to_fix": 22.5
+    },
+    "agent_authored": {
+      "changes": 89,
+      "broke": 9,
+      "break_rate": 0.1011,
+      "revert_rate": 0.0,
+      "regression_rate": 0.1011,
+      "churn_rate": 0.2809,
+      "throughput_per_week": 0.2,
+      "median_hours_to_fix": 18.8
+    },
+    "agent_involved": {
+      "changes": 390,
+      "broke": 11,
+      "break_rate": 0.0282,
+      "churn_rate": 0.341,
+      "throughput_per_week": 0.88,
+      "median_hours_to_fix": 36.0
+    },
+    "human_total": {
+      "changes": 8473,
+      "broke": 201,
+      "break_rate": 0.0237,
+      "churn_rate": 0.3916,
+      "throughput_per_week": 19.11,
+      "median_hours_to_fix": 22.5
+    }
+  },
+  "rework_concentration": 0.447
+}
