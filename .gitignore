@@ -1,0 +1,5 @@
+# Measurements of private repositories never enter this repository.
+data/*.json
+__pycache__/
+*.pyc
+.pytest_cache/
