@@ -83,7 +83,11 @@ def read_commits(repo: Path, since: Optional[str], until: Optional[str]) -> List
     field. That removes the need to guess which lines are paths.
     """
     fmt = "%x1e%H%x1f%at%x1f%an%x1f%ae%x1f%cn%x1f%ce%x1f%s%x1f%b%x1f"
-    args = ["log", "--no-merges", "--name-only", f"--pretty=format:{fmt}"]
+    # --no-renames matters more than it looks: rename detection needs file contents,
+    # so on a partial clone (--filter=blob:none) git silently fetches every blob it
+    # touches, one at a time, over the network. A large repository then takes hours
+    # instead of seconds. Renames are irrelevant here — only the paths are read.
+    args = ["log", "--no-merges", "--no-renames", "--name-only", f"--pretty=format:{fmt}"]
     if since:
         args.append(f"--since={since}")
     if until:
